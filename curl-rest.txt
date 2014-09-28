@@ -1,0 +1,10 @@
+curl -X POST -i -H "Content-type: application/json" -c cookies.txt -X POST http://localhost:8888/service/user/login -d '
+    {
+        "username":"user",
+        "password":"password"
+    }
+    '
+`-i` means show http response headers
+`-H` allows you to set http request headers. And drupal services need just the content-type header
+`-c` is to save the cookies on the cookies.txt file. And since we are doing a login this is important
+`-d` allows you to set the request body, which you will be using on drupal services to send the parameters
