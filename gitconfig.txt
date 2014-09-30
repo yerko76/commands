@@ -3,7 +3,8 @@ user]
 	email = yerko.aguirre@gmail.com
 [alias]
   co = checkout
-  s = status
+  s =  status
+  cm = commit -m
 [color]
 	diff = auto
 	status = auto
