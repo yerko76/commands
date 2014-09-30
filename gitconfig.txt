@@ -1,0 +1,21 @@
+user]
+	name = Yerko Aguirre
+	email = yerko.aguirre@gmail.com
+[alias]
+  co = checkout
+  s = status
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /home/y3rko/.gitignore
+	editor = mate -w
+	autocrlf = input
+[apply]
+	whitespace = nowarn
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
+[github]
+	user = yerko76
+	token = 6646c22d568ddb52feae9087dd7f1127f5e21b0a
