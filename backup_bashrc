@@ -1,0 +1,21 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+export JAVA_HOME=/opt/jdk/jdk1.7.0_71
+export GRADLE_HOME=/opt/gradle/gradle-1.12
+export MONGO_HOME=/home/yerko/Downloads/mongodb-linux-x86_64-2.4.12
+export MAVEN_HOME=/opt/apache-maven-3.2.3
+export PATH=$JAVA_HOME/bin:$GRADLE_HOME/bin:$MONGO_HOME/bin:$PATH:$MAVEN_HOME/bin
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+/home/yerko/.bashrc (END)
+
+
